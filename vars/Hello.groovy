@@ -1,5 +1,5 @@
-def call(string name) {
-
+def call(string name)
+{
 echo "Hello $(name)"
 }
 
