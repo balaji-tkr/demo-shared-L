@@ -1,4 +1,13 @@
-def call()
+def call(String result)
 {
-build 'demo2'
+pipeline {
+   agent any 
+     stages {
+	stage('Demo'){
+	  steps {
+	    echo 'I think this will work'
+		}
 }
+     }
+}
+     }
