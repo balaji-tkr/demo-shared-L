@@ -1,13 +1,13 @@
 def call(String result)
 {
 pipeline{
-agent any {
-stages{
-stage('compile'){
-  steps{
-    sh 'mvn clean compile'
+  agent any 
+    stages{
+      stage('compile'){
+        steps{
+          sh 'mvn clean compile'
+              }
+          }
+      }
     }
-    }
-   }
- }
 }
